@@ -1,0 +1,12 @@
+:{$PORT:8080}
+
+root * /srv
+encode gzip
+file_server
+
+# Serve clean URLs: /sneak-peek works without the .html
+try_files {path} {path}.html
+
+header {
+	Cache-Control "public, max-age=3600"
+}
