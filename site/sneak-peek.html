@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tegmaro — Sneak Peek</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap');
+body{margin:0;background:#0a0d10;}
+.slot-img{width:100%;height:100%;object-fit:cover;display:block;}
+@keyframes pulseRing{0%{r:9;opacity:0.55;}70%{r:26;opacity:0;}100%{r:26;opacity:0;}}
+@keyframes scanSweep{0%{transform:translateY(-100%);}100%{transform:translateY(100%);}}
+</style>
+</head>
+<body>
+<div style="background:#0a0d10;color:#e8ebee;font-family:'IBM Plex Sans',sans-serif;min-height:100vh;width:100%;box-sizing:border-box;position:relative;">
+
+  <div style="position:fixed;inset:0;pointer-events:none;z-index:4;opacity:0.05;">
+    <img class="slot-img" src="./blueprint-visual.png" alt="">
+  </div>
+  <div style="position:fixed;inset:0;pointer-events:none;z-index:5;overflow:hidden;background-image:radial-gradient(circle,rgba(233,235,238,0.05) 1px,transparent 1.6px);background-size:36px 36px;">
+    <div style="position:absolute;left:0;right:0;height:24%;background:linear-gradient(180deg,transparent,rgba(95,212,196,0.07),transparent);animation:scanSweep 12s linear infinite;"></div>
+  </div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:28px 64px;max-width:1280px;margin:0 auto;box-sizing:border-box;">
+    <a href="./" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;">
+      <svg width="30" height="30" viewBox="0 0 34 34" style="overflow:visible;">
+        <circle cx="17" cy="17" r="9" fill="none" stroke="#3a4a52" stroke-width="1"></circle>
+        <circle cx="17" cy="17" r="9" fill="none" stroke="#5fd4c4" stroke-width="1.4" style="animation:pulseRing 2.6s ease-out infinite;"></circle>
+        <circle cx="17" cy="17" r="3.2" fill="#5fd4c4"></circle>
+      </svg>
+      <span style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:18px;letter-spacing:0.02em;">TEGMARO</span>
+    </a>
+    <a href="./" style="color:#c7ced3;text-decoration:none;font-size:14px;letter-spacing:0.03em;border:1px solid #3a4a52;padding:9px 18px;border-radius:2px;">← BACK TO SITE</a>
+  </div>
+
+  <div style="position:relative;max-width:900px;margin:0 auto;padding:64px 64px 40px;box-sizing:border-box;">
+    <div style="font-family:'Space Grotesk',sans-serif;font-size:13px;letter-spacing:0.16em;color:#5fd4c4;margin-bottom:20px;">INTERNAL PREVIEW — NOT FOR DISTRIBUTION</div>
+    <h1 style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(32px,4vw,48px);line-height:1.12;margin:0 0 20px;">A sneak peek at what's on the bench.</h1>
+    <p style="font-size:17px;line-height:1.6;color:#a9b2b8;margin:0;">A rolling look at programs in motion across Tegmaro — status is directional, not contractual, and scope narrows fast as work matures.</p>
+  </div>
+
+  <div style="position:relative;max-width:900px;margin:0 auto;padding:20px 64px 100px;box-sizing:border-box;display:flex;flex-direction:column;gap:1px;background:#1c2328;border:1px solid #1c2328;">
+
+    <div style="background:rgba(10,13,16,0.9);padding:32px 36px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;">
+      <div>
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:8px;">NoseKnows — Olfactory Sensing</div>
+        <div style="font-size:15px;line-height:1.6;color:#8f9aa1;">8-channel solid-state scent detection. Working bench model; moving toward a field-hardened form factor.</div>
+      </div>
+      <div style="font-size:12px;letter-spacing:0.1em;color:#5fd4c4;white-space:nowrap;">VALIDATED</div>
+    </div>
+
+    <div style="background:rgba(10,13,16,0.9);padding:32px 36px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;">
+      <div>
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:8px;">Distributed Space Sensing</div>
+        <div style="font-size:15px;line-height:1.6;color:#8f9aa1;">Low-cost mesh architecture for orbital object tracking. Concept and system design underway.</div>
+      </div>
+      <div style="font-size:12px;letter-spacing:0.1em;color:#c98a3e;white-space:nowrap;">EARLY DESIGN</div>
+    </div>
+
+    <div style="background:rgba(10,13,16,0.9);padding:32px 36px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;">
+      <div>
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:8px;">Sovereign Edge Compute</div>
+        <div style="font-size:15px;line-height:1.6;color:#8f9aa1;">Federated inference on low-cost substrates, no cloud dependency. Architecture exploration.</div>
+      </div>
+      <div style="font-size:12px;letter-spacing:0.1em;color:#c98a3e;white-space:nowrap;">EARLY DESIGN</div>
+    </div>
+
+    <div style="background:rgba(10,13,16,0.9);padding:32px 36px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;">
+      <div>
+        <div style="font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;margin-bottom:8px;">Undisclosed — Program 4</div>
+        <div style="font-size:15px;line-height:1.6;color:#8f9aa1;">Details withheld while scope is finalized. Ask us directly if you're evaluating a related problem.</div>
+      </div>
+      <div style="font-size:12px;letter-spacing:0.1em;color:#5a656b;white-space:nowrap;">REDACTED</div>
+    </div>
+
+  </div>
+
+  <div style="position:relative;border-top:1px solid #1c2328;">
+    <div style="max-width:900px;margin:0 auto;padding:64px 64px 100px;box-sizing:border-box;text-align:center;">
+      <p style="font-size:16px;color:#a9b2b8;margin:0 0 28px;">Want more detail on a specific program? Reach out directly.</p>
+      <a href="mailto:hello@tegmaro.com" style="display:inline-flex;align-items:center;gap:10px;background:transparent;color:#5fd4c4;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16px;padding:14px 30px;border:1px solid #5fd4c4;border-radius:2px;">hello@tegmaro.com</a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
